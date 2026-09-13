@@ -1,0 +1,5 @@
+| Bauteil | Funktion |
+| Li-Ion/LiPo-Akku, 1S / 3,7 V | Energiequelle für den MP3-Player |
+| MCP73831T-2ACI/OT | Lädt den Akku kontrolliert auf |
+| DW01A | Schützt den Akku vor Überladung, Tiefentladung und Überstrom |
+| FS8205A | Schaltet den Akku bei einem Fehler ab |
