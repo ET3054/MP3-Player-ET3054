@@ -1,0 +1,16 @@
+| Bauteil/Pin          | Verbindung                                 |
+| -------------------- | ------------------------------------------ |
+| Akku **B+**          | direkt an **P+**                           |
+| Akku **B−**          | DW01A **Pin 6 VSS** + FS8205A **Pin 1 S1** |
+| DW01A **Pin 5 VDD**  | über **100 Ω** an B+/P+                    |
+| DW01A **Pin 6 VSS**  | B−                                         |
+| DW01A **Pin 1 DO**   | FS8205A **Pin 6 G1**                       |
+| DW01A **Pin 2 VM**   | über **1 kΩ** an P−                        |
+| DW01A **Pin 3 CO**   | FS8205A **Pin 4 G2**                       |
+| DW01A **Pin 4 NC**   | offen lassen                               |
+| FS8205A **Pin 1 S1** | B−                                         |
+| FS8205A **Pin 2 D1** | gemeinsamer Drain                          |
+| FS8205A **Pin 5 D2** | mit Pin 2 auf dieselbe Kupferfläche        |
+| FS8205A **Pin 3 S2** | P−                                         |
+| FS8205A **Pin 4 G2** | DW01A Pin 3 CO                             |
+| FS8205A **Pin 6 G1** | DW01A Pin 1 DO                             |
