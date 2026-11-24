@@ -1,0 +1,12 @@
+(footprint "SW_5MS1S102AM2QE_PLACEHOLDER"
+(version 20241229)
+(generator "pcbnew")
+(layer "F.Cu")
+(descr "PRELIMINARY SW1: Pin assignment and mechanical footprint NOT VERIFIED; must check before fabrication")
+(property "Reference" "REF**" (at 0 -3.5 0) (layer "F.SilkS") (uuid "df116d1f-3cde-415b-b73b-df565c73f8f9") (effects (font (size 0.85 0.85) (thickness 0.12))))
+(property "Value" "SW_5MS1S102AM2QE_PLACEHOLDER" (at 0 3.5 0) (layer "F.Fab") (uuid "6e380ed6-9c6f-44d0-9d20-7d66ef20b7ba") (effects (font (size 0.8 0.8) (thickness 0.12))))
+(attr through_hole)
+(pad "1" thru_hole circle (at -2.54 0) (size 1.65 1.65) (drill 0.85) (layers "*.Cu" "*.Mask") (uuid "110ae8f4-bb74-44f9-af3c-561cfc6b6049"))
+(pad "2" thru_hole circle (at 0 0) (size 1.65 1.65) (drill 0.85) (layers "*.Cu" "*.Mask") (uuid "24cb174d-4979-4e24-9902-4af946b85986"))
+(pad "3" thru_hole circle (at 2.54 0) (size 1.65 1.65) (drill 0.85) (layers "*.Cu" "*.Mask") (uuid "65e8c227-93dd-4bcf-92a1-479e99d0291f"))
+)

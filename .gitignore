@@ -13,3 +13,6 @@ fp-info-cache
 .DS_Store
 Thumbs.db
 *.stl
+
+*_restore_backup*/
+*restore_backup*
