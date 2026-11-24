@@ -1,0 +1,133 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 744750230150
+#/465403/2159710/2.50/2/2/Inductor
+DEF 744750230150 L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "744750230150" 650 150 50 H V L CNN
+F2 "744750230150" 650 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/744750230150.pdf" 650 -50 50 H I L CNN
+F4 "WE-FAMI THT Power Inductor Size 8010; L = 15 H +/-20%; IR = 3.7 A; Isat = 5.7 A; RDC = 35 m" 650 -150 50 H I L CNN "Description"
+F5 "11" 650 -250 50 H I L CNN "Height"
+F6 "710-744750230150" 650 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=710-744750230150" 650 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 650 -550 50 H I L CNN "Manufacturer_Name"
+F9 "744750230150" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MSD-4-A
+#/18966472/2159710/2.50/13/2/Connector
+DEF MSD-4-A J 0 30 Y Y 1 F N
+F0 "J" 1150 300 50 H V L CNN
+F1 "MSD-4-A" 1150 200 50 H V L CNN
+F2 "MSD4A" 1150 100 50 H I L CNN
+F3 "https://www.sameskydevices.com/product/resource/msd-4-a.pdf" 1150 0 50 H I L CNN
+F4 "Micro SD Card Connector, 9 Contacts, Connector and Ejector, Push In, Auto Eject Out, Surface Mount, 1.8 mm Height Above Board, Gold Flash" 1150 -100 50 H I L CNN "Description"
+F5 "2" 1150 -200 50 H I L CNN "Height"
+F6 "179-MSD-4-A" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Same-Sky/MSD-4-A?qs=Z%252BL2brAPG1Jll%252BQTi%252Btupg%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Same Sky" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MSD-4-A" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X DAT2 1 0 0 200 R 50 50 0 0 P
+X CD/DAT3 2 0 -100 200 R 50 50 0 0 P
+X CMD 3 0 -200 200 R 50 50 0 0 P
+X VDD 4 0 -300 200 R 50 50 0 0 P
+X CLK 5 0 -400 200 R 50 50 0 0 P
+X VSS 6 0 -500 200 R 50 50 0 0 P
+X DAT0 7 0 -600 200 R 50 50 0 0 P
+X DAT1 8 1300 0 200 L 50 50 0 0 P
+X GND_1 G1 1300 -100 200 L 50 50 0 0 P
+X GND_2 G2 1300 -200 200 L 50 50 0 0 P
+X GND_3 G3 1300 -300 200 L 50 50 0 0 P
+X GND_4 G4 1300 -400 200 L 50 50 0 0 P
+X CD1 CD1 1300 -500 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ACZ11BR4E-15FA1-20C
+#/13818610/2159710/2.50/7/2/Connector
+DEF ACZ11BR4E-15FA1-20C J 0 30 Y Y 1 F N
+F0 "J" 850 500 50 H V L CNN
+F1 "ACZ11BR4E-15FA1-20C" 850 400 50 H V L CNN
+F2 "ACZ11BR4E15FA120C" 850 300 50 H I L CNN
+F3 "https://www.sameskydevices.com/product/resource/acz11.pdf" 850 200 50 H I L CNN
+F4 "11 mm, 12 PPR, M7 x 0.75 mm Bushing, 20 mm Shaft Length, F Shaft Type with Push Switch, Vertical, Through Hole, PCB Pins, Mechanical Panel Mount Encoder" 850 100 50 H I L CNN "Description"
+F5 "13.75" 850 0 50 H I L CNN "Height"
+F6 "490-ACZ11E15FA120C" 850 -100 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Same-Sky/ACZ11BR4E-15FA1-20C?qs=WyjlAZoYn521vRzc3WQA5g%3D%3D" 850 -200 50 H I L CNN "Mouser Price/Stock"
+F8 "Same Sky" 850 -300 50 H I L CNN "Manufacturer_Name"
+F9 "ACZ11BR4E-15FA1-20C" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A1 A1 400 -500 200 U 50 50 0 0 P
+X B1 B1 600 -500 200 U 50 50 0 0 P
+X C1 C1 500 -500 200 U 50 50 0 0 P
+X S1 S1 400 500 200 D 50 50 0 0 P
+X S2 S2 500 500 200 D 50 50 0 0 P
+X MH1 MH1 0 0 200 R 50 50 0 0 P
+X MH2 MH2 1000 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 300 800 300 800 -300 200 -300 200 300 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model EC10E1260502
+#/860357/2159710/2.50/5/3/Undefined or Miscellaneous
+DEF EC10E1260502 U 0 30 Y Y 1 F N
+F0 "U" 1250 300 50 H V L CNN
+F1 "EC10E1260502" 1250 200 50 H V L CNN
+F2 "EC10E1260502" 1250 100 50 H I L CNN
+F3 "https://tech.alpsalpine.com/e/products/detail/EC10E1260502/#ancFig1" 1250 0 50 H I L CNN
+F4 "Rotary Encoder Mechanical 12 Quadrature (Incremental) Vertical" 1250 -100 50 H I L CNN "Description"
+F5 "10.6" 1250 -200 50 H I L CNN "Height"
+F6 "688-EC10E1260502" 1250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/EC10E1260502?qs=3cOf6TWd2rY2MXH%2FlPBTYQ%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "ALPS Electric" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "EC10E1260502" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X MH1 1 1400 0 200 L 50 50 0 0 P
+X MH2 2 1400 -100 200 L 50 50 0 0 P
+X TERMINAL_A A1 0 0 200 R 50 50 0 0 P
+X TERMINAL_B B1 0 -100 200 R 50 50 0 0 P
+X TERMINAL_C C1 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

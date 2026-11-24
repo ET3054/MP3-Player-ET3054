@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP 744750230150
+D WE-FAMI THT Power Inductor Size 8010; L = 15 H +/-20%; IR = 3.7 A; Isat = 5.7 A; RDC = 35 m
+K
+F https://componentsearchengine.com/Datasheets/1/744750230150.pdf
+$ENDCMP
+#
+$CMP MSD-4-A
+D Micro SD Card Connector, 9 Contacts, Connector and Ejector, Push In, Auto Eject Out, Surface Mount, 1.8 mm Height Above Board, Gold Flash
+K
+F https://www.sameskydevices.com/product/resource/msd-4-a.pdf
+$ENDCMP
+#
+$CMP ACZ11BR4E-15FA1-20C
+D 11 mm, 12 PPR, M7 x 0.75 mm Bushing, 20 mm Shaft Length, F Shaft Type with Push Switch, Vertical, Through Hole, PCB Pins, Mechanical Panel Mount Encoder
+K
+F https://www.sameskydevices.com/product/resource/acz11.pdf
+$ENDCMP
+#
+$CMP EC10E1260502
+D Rotary Encoder Mechanical 12 Quadrature (Incremental) Vertical
+K
+F https://tech.alpsalpine.com/e/products/detail/EC10E1260502/#ancFig1
+$ENDCMP
+#
+#End Doc Library
